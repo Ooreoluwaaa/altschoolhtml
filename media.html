@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Elements</title>
+</head>
+<body>
+    <header>
+    <nav aria-labelledby="primary-navigation">
+        <ul>
+            <li>
+                <a href="#audio">Audio</a>
+            </li>
+            <li>
+                <a href="#video">Video</a>
+            </li>
+            <li>
+                <a href="#iFrame">iFrame</a>
+            </li>
+            <li>
+                <a href="#embed">Embed</a>
+            </li>
+            <li>
+                <a href="#source">Source</a>
+            </li>
+            <li>
+                <a href="#track">Track</a>
+            </li>
+            <li>
+                <a href="#picture">Picture</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main>
+        <article id="audio">
+            <section>
+                <h1><em>Audio Element</em></h1>
+                <audio controls 
+                src="./Assets/Lawrence_Oyor_-_Rain_Of_Favour_CeeNaija.com_.mp3">
+                </audio>
+            </section>
+        </article>
+
+        <article id="video">
+            <section>
+                <h1><em>Video Element</em></h1>
+                <video controls width="656" height="369"
+                src="./Assets/203923-922675870_small.mp4">
+                </video>
+            </section>
+        </article>
+
+        <article id="iFrame">
+            <section>
+                <h1><em>iFrame element</em></h1>
+                <iframe width="656" height="369" src="https://www.youtube.com/embed/rtxy5TcUavY" title="A Day in the Life of an AltSchooler: Rachael Adetona" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </article>
+
+        <article id="embed">
+            <section>
+                <h1><em>Embed element</em></h1>
+                <embed width="656" height="369" src="https://www.youtube.com/embed/YN-45UcW-Mc" title="Favour surrounds you like a shield || Evang. Lawrence Oyor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>     
+            </section>
+        </article>
+
+        <article id="source">
+            <section>
+            <h1><em>Source element</em></h1>
+            <video controls  width="656" height="369">
+                <source src="./Assets/202368-918049003_tiny.mp4">
+                <track src="">
+            </video>
+            </section>
+        </article>
+
+        <article id="track">
+            <section>
+                <h1><em>Track element</em></h1>
+                <video controls>
+                    <source src="./Assets/Justin_Bieber_-_Ghost_CeeNaija.com_.mp3" >
+                </video>
+            </section>
+
+        </article>
+    </main>
+</body>
+</html>
